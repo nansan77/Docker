@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  mysql:
+    image: postgres:13.1-alpine
+    ports:
+      - '9875:9875'
+    environment:
+      - POSTGRES_DB=moon22
+      - POSTGRES_USER=Heshe
+      - POSTGRES_PASSWORD=moon
